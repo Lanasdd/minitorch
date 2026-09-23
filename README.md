@@ -1,12 +1,145 @@
 # minitorch
-The full minitorch student suite. 
 
+## Task 1.5
 
-To access the autograder: 
+"Simple"\
+Epoch  10  loss  31.563369349130653 correct 45\
+Epoch  20  loss  21.674012249967515 correct 47\
+Epoch  30  loss  11.164952370731635 correct 47\
+Epoch  40  loss  7.190218522562923 correct 48\
+Epoch  50  loss  5.848451829672785 correct 49\
+...\
+Epoch  460  loss  3.0683922911143564 correct 48\
+Epoch  470  loss  3.0543238476240497 correct 48\
+Epoch  480  loss  3.038623205066712 correct 48\
+Epoch  490  loss  3.0248480324198503 correct 48\
+Epoch  500  loss  3.0108297682116647 correct 48
 
-* Module 0: https://classroom.github.com/a/qDYKZff9
-* Module 1: https://classroom.github.com/a/6TiImUiy
-* Module 2: https://classroom.github.com/a/0ZHJeTA0
-* Module 3: https://classroom.github.com/a/U5CMJec1
-* Module 4: https://classroom.github.com/a/04QA6HZK
-* Quizzes: https://classroom.github.com/a/bGcGc12k
+"Diag"\
+Epoch  10  loss  29.753100573528354 correct 38\
+Epoch  20  loss  27.800514163089566 correct 38\
+Epoch  30  loss  27.586790446558663 correct 38\
+Epoch  40  loss  27.558571966904577 correct 38\
+Epoch  50  loss  27.554576957582398 correct 38\
+...\
+Epoch  460  loss  27.55389640444862 correct 38\
+Epoch  470  loss  27.55389640444862 correct 38\
+Epoch  480  loss  27.55389640444862 correct 38\
+Epoch  490  loss  27.55389640444862 correct 38\
+Epoch  500  loss  27.55389640444862 correct 38
+
+"Split"\
+Epoch  10  loss  33.186357562287725 correct 31\
+Epoch  20  loss  33.1670720493615 correct 31\
+Epoch  30  loss  33.15464383455011 correct 31\
+Epoch  40  loss  33.14157448865707 correct 31\
+Epoch  50  loss  33.126003677379664 correct 31\
+...\
+Epoch  460  loss  32.42005256527223 correct 34\
+Epoch  470  loss  32.41900317352001 correct 34\
+Epoch  480  loss  32.41838923133155 correct 34\
+Epoch  490  loss  32.41795212375834 correct 34\
+Epoch  500  loss  32.41767137674787 correct 34
+
+"Xor"\
+Epoch  10  loss  34.246256595137865 correct 28\
+Epoch  20  loss  34.116815054231225 correct 28\
+Epoch  30  loss  34.00244022511235 correct 28\
+Epoch  40  loss  33.843169986402565 correct 28\
+Epoch  50  loss  33.61159432090408 correct 28\
+...\
+Epoch  460  loss  23.06001077977521 correct 39\
+Epoch  470  loss  23.069750862796145 correct 39\
+Epoch  480  loss  23.2958424607787 correct 39\
+Epoch  490  loss  23.068847097596294 correct 39\
+Epoch  500  loss  23.22993765159274 correct 39
+
+## Task 2.5
+
+"Simple"\
+Epoch  10  loss  34.34529349491225 correct 22\
+0.0191605806350708 s/epoch\
+Epoch  20  loss  33.28699229816252 correct 32\
+0.019175624847412108 s/epoch\
+Epoch  30  loss  31.544604160384683 correct 37\
+0.019211077690124513 s/epoch\
+...\
+Epoch  480  loss  3.264859115075852 correct 48\
+0.01861422061920166 s/epoch\
+Epoch  490  loss  3.2443903792649307 correct 48\
+0.018632149696350096 s/epoch\
+Epoch  500  loss  3.2243333451818783 correct 48\
+0.019112992286682128 s/epoch
+
+"Diag"\
+Epoch  10  loss  23.07836271309565 correct 42\
+0.019269895553588868 s/epoch\
+Epoch  20  loss  21.738544107565424 correct 42\
+0.019368958473205567 s/epoch\
+Epoch  30  loss  20.504934534023633 correct 42\
+0.01905639171600342 s/epoch\
+...\
+Epoch  480  loss  1.4250752832326936 correct 50\
+0.0190582275390625 s/epoch\
+Epoch  490  loss  1.4044043084333924 correct 50\
+0.01902618408203125 s/epoch\
+Epoch  500  loss  1.3843167897643638 correct 50\
+0.0189650297164917 s/epoch
+
+"Split"\
+Epoch  10  loss  32.970548912234825 correct 31\
+0.01924145221710205 s/epoch\
+Epoch  20  loss  32.61201478424384 correct 31\
+0.019155240058898924 s/epoch\
+Epoch  30  loss  32.359381936744214 correct 31\
+0.019023919105529787 s/epoch\
+...\
+Epoch  480  loss  23.659732675913485 correct 38\
+0.018749165534973144 s/epoch\
+Epoch  490  loss  24.38004400807338 correct 38\
+0.018824243545532228 s/epoch\
+Epoch  500  loss  23.4536405034959 correct 40\
+0.019153571128845213 s/epoch
+
+"Xor"\
+Epoch  10  loss  33.65110734902824 correct 30\
+0.019176816940307616 s/epoch\
+Epoch  20  loss  33.65053185563827 correct 30\
+0.019109106063842772 s/epoch\
+Epoch  30  loss  33.65048711506965 correct 30\
+0.01890690326690674 s/epoch\
+...\
+Epoch  480  loss  33.65048335056281 correct 30\
+0.018897032737731932 s/epoch\
+Epoch  490  loss  33.65048335056281 correct 30\
+0.01886107921600342 s/epoch\
+Epoch  500  loss  33.65048335056281 correct 30\
+0.018977928161621093 s/epoch
+
+"Circle"\
+Epoch  10  loss  33.5249056041656 correct 31\
+0.0191389799118042 s/epoch\
+Epoch  20  loss  33.228016549705835 correct 31\
+0.018947744369506837 s/epoch\
+Epoch  30  loss  33.20510550499348 correct 31\
+0.018614745140075682 s/epoch
+...\
+Epoch  490  loss  33.203106328305395 correct 31\
+0.01874055862426758 s/epoch\
+Epoch  500  loss  33.203106328305395 correct 31\
+0.019042611122131348 s/epoch
+
+"Spiral"\
+Epoch  10  loss  34.720089269766945 correct 25\
+0.019177794456481934 s/epoch\
+Epoch  20  loss  34.70848582647367 correct 25\
+0.019079089164733887 s/epoch\
+Epoch  30  loss  34.70554551441215 correct 25\
+0.019037652015686034 s/epoch\
+...\
+Epoch  480  loss  34.667052769119586 correct 25\
+0.01944582462310791 s/epoch\
+Epoch  490  loss  34.66674944666215 correct 25\
+0.01900670528411865 s/epoch\
+Epoch  500  loss  34.66645448471311 correct 25\
+0.019167208671569826 s/epoch
