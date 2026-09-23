@@ -4,6 +4,7 @@ Be sure you have minitorch installed in you Virtual Env.
 """
 
 import minitorch
+import time
 
 
 def RParam(*shape):
@@ -71,6 +72,7 @@ class TensorTrain:
         y = minitorch.tensor(data.y)
 
         losses = []
+        start = time.time()
         for epoch in range(1, self.max_epochs + 1):
             total_loss = 0.0
             correct = 0
@@ -92,12 +94,15 @@ class TensorTrain:
             if epoch % 10 == 0 or epoch == max_epochs:
                 y2 = minitorch.tensor(data.y)
                 correct = int(((out.detach() > 0.5) == y2).sum()[0])
+                time_ = time.time() - start
                 log_fn(epoch, total_loss, correct, losses)
+                print(f"{time_ / 10} s/epoch")
+                start = time.time()
 
 
 if __name__ == "__main__":
     PTS = 50
     HIDDEN = 2
     RATE = 0.5
-    data = minitorch.datasets["Simple"](PTS)
+    data = minitorch.datasets["Spiral"](PTS)
     TensorTrain(HIDDEN).train(data, RATE)
